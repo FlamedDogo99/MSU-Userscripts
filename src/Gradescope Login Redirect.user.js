@@ -17,7 +17,6 @@ function redirectLogin(e) {
 }
 
 function clickHandler(event) {
-    console.log(event);
     if(event.target.classList.contains('js-logInButton')) {
         redirectLogin();
     }

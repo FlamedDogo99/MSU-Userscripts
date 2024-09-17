@@ -6,7 +6,7 @@ Navigating Montana State University websites can be extremely annoying. This rep
 Logging into Gradescope requires navigating mutliple login screens and search bars to eventually end up in the same login screen that most Montana State websites use. This userscript skips all of that, taking you directly to the correct login portal on the first click.
 
 ### MyInfo Style
-This is a userscript version of the MyInfo+ chrome extension. It adds a functional search bar to help navigate MyInfo's confusing layout, scales the window to be easily accessible on mobile devices, and tastefully restyles the 2011 (and older) graphics.
+This is a userscript version of the [MyInfo+ chrome extension](https://github.com/FlamedDogo99/MyInfoPlus). It adds a functional search bar to help navigate MyInfo's confusing layout, scales the window to be easily accessible on mobile devices, and tastefully restyles the 2011 (and older) graphics.
 
 ### Redirect MyInfo
 When you log out of MyInfo, voluntarily or not, it leaves you on a page that says "logout succesful", with no option to navigate back to the previous website. This userscript redirects this screen back to the MyInfo login page.

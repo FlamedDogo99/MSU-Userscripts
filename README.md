@@ -1,5 +1,4 @@
 # MSU Userscripts
-[![License](https://img.shields.io/github/license/FlamedDogo99/MSU-Userscripts?style=flat-square)](https://github.com/FlamedDogo99/MSU-Userscripts/blob/main/LICENSE)
 ## About
 Navigating Montana State University websites can be extremely annoying. This repository contains some quality-of-life userscripts to make that experience easier.
 
@@ -17,7 +16,3 @@ When MyInfo decides to arbitrarily logout, it displays an alert saying `Session 
 
 ### MSU Stale Redirect
 When navigating Montana State University websites, it's common to be faced with  `stale request` error pages, with no explanation for why you arrived there. This single-line userscript handles that by navigating backwords in the session history.
-
-## License
-
-"MSU Userscripts" is licensed under the terms of the [Apache License, Version 2.0](https://github.com/FlamedDogo99/MSU-Userscripts/blob/main/LICENSE).

@@ -5,6 +5,9 @@
 // @description  MyInfo Style
 // @author       FlamedDogo
 // @match        https://prodmyinfo.montana.edu/*
+// @downloadURL  https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/MyInfoStyle.js
+// @license      None
+// @updateURL    https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/MyInfoStyle.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==

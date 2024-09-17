@@ -3,10 +3,12 @@
 // @description     Navigate back if presented with a stale request error
 // @author          FlamedDogo99
 // @namespace       http://github.com/FlamedDogo99
-// @license         Apache License 2.0 - http://www.apache.org/licenses/
+// @downloadURL     https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/MSU%20Stale%20Redirect.user.js
+// @license         None
 // @match           https://login.montana.edu/idp/profile/SAML2/Redirect/SLO
 // @version         1.0.0
 // @run-at          document-start
+// @updateURL       https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/MSU%20Stale%20Redirect.user.js
 // @grant           none
 // ==/UserScript==
 

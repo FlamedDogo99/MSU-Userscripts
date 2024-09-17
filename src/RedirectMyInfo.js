@@ -5,7 +5,10 @@
 // @description  Redirects MyInfo Logout
 // @author       FlamedDogo
 // @match        https://login.montana.edu/idp/profile/cas/logout*
+// @downloadURL  https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/RedirectMyInfo.js
+// @license      None
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/RedirectMyInfo.js
 // @run-at       document-start
 // ==/UserScript==
 

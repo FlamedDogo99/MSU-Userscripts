@@ -6,7 +6,7 @@
 // @downloadURL     https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/Gradescope%20Login%20Redirect.user.js
 // @license         None
 // @match           https://www.gradescope.com/*
-// @version         1.0.1
+// @version         1.0.2
 // @run-at          document-start
 // @updateURL       https://raw.githubusercontent.com/FlamedDogo99/MSU-Userscripts/main/src/Gradescope%20Login%20Redirect.user.js
 // @grant           none
@@ -17,6 +17,7 @@ function redirectLogin(e) {
 }
 
 function clickHandler(event) {
+    console.log(event);
     if(event.target.classList.contains('js-logInButton')) {
         redirectLogin();
     }
@@ -26,4 +27,4 @@ if(location.href == "https://www.gradescope.com/login") {
 	location.href = redirectLink;
 }
 
-document.body.addEventListener( 'click', clickHandler, true);
+document.documentElement.addEventListener( 'click', clickHandler, true);
